@@ -18,3 +18,4 @@
     - Whisper gives a 100% WER (Word Error Rate) for resource poor languages like Malayalam , and it is comaparitively slow as its a sequence - sequence model
     - Wav2Vec2-BERT predicts ASR in a single pass, making it much faster than Whisper.
     - It requires little data to achieve competitive performance, is easily adaptable to any alphabet, and is more resource-efficient.
+    - expects the input in the format of a 1-dimensional array of 16 kHz
