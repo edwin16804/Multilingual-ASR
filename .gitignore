@@ -3,3 +3,11 @@ Ed-168
 w2vbert-hi-ctc-cv16
 XLS-R-hi-ctc-cv16
 XLSR.pdf
+__pycache__
+logs
+test_hindi_clip.wav 
+fine_tuned_hi_en
+results-hi-en-2percent
+pdfs
+data.json
+Copy_of_SLP_lab8_22BAI1002.ipynb
