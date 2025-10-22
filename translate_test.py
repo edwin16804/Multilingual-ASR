@@ -5,11 +5,11 @@ from transformers import pipeline
 # Load your fine-tuned model
 translator = pipeline(
     "translation",
-    model="./fine_tuned_hi_en",
-    tokenizer="./fine_tuned_hi_en"
+    model="./fine_tuned_hi_en_BA",
+    tokenizer="./fine_tuned_hi_en_BA"
 )
 
-MAX_LEN_HI = 40
+MAX_LEN_HI = 400
 MAX_LEN_EN = 400
 # Translate any Hindi sentence
 while True:
